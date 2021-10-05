@@ -30,7 +30,7 @@ const SearchPage = loadable(() => import(/* webpackChunkName: "SearchPage" */ /*
 const StripePayoutPage = loadable(() => import(/* webpackChunkName: "StripePayoutPage" */ './containers/StripePayoutPage/StripePayoutPage'));
 const TermsOfServicePage = loadable(() => import(/* webpackChunkName: "TermsOfServicePage" */ './containers/TermsOfServicePage/TermsOfServicePage'));
 const TransactionPage = loadable(() => import(/* webpackChunkName: "TransactionPage" */ './containers/TransactionPage/TransactionPage'));
-const FAQPage = loadable(() => import(/* webpackChunkName: "FAQPage" */ './containers/FAQPage/FAQPage'));
+const FAQPage2 = loadable(() => import(/* webpackChunkName: "FAQPage2" */ './containers/FAQ2/FAQPage2'));
 
 // Styleguide helps you to review current components and develop new ones
 const StyleguidePage = loadable(() => import(/* webpackChunkName: "StyleguidePage" */ './containers/StyleguidePage/StyleguidePage'));
@@ -70,8 +70,8 @@ const routeConfiguration = () => {
     },
      {
       path: '/faq',
-      name: 'FAQPage',
-      component: FAQPage,
+      name: 'FAQPage2',
+      component: FAQ2,
     },
     {
       path: '/s',
