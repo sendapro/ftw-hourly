@@ -1,11 +1,11 @@
 import React from 'react';
 
-const FAQ2 = () => {
+const FAQs = () => {
   return <h1>Hello World</h1>;
 };
 
-export default FAQPage;
-import FAQ2 from '../../containers/FAQ2/FAQ2';
+export default FAQs;
+import FAQs from 'ftw-hourly-sendapro/src/containers/FAQs/FAQs';
 
 import React from 'react';
 import {
@@ -16,8 +16,8 @@ import {
   Footer,
 } from '../../components';
 
-import StaticPage from '../../containers/StaticPage/StaticPage';
-import TopbarContainer from '../../containers/TopbarContainer/TopbarContainer';
+import StaticPage from 'ftw-hourly-sendapro/src/containers/StaticPage/StaticPage';
+import TopbarContainer from 'ftw-hourly-sendapro/src/containers/TopbarContainer/TopbarContainer';
 
 import css from './FAQPage.module.css';
 
@@ -47,7 +47,7 @@ const FAQPage = () => {
   );
 };
 
-export default FAQPage;
+export default FAQs;
 
 .mainWrapper {
   width: calc(100% - 48px);
